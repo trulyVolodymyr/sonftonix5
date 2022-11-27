@@ -12,20 +12,6 @@
       Add contact
     </button>
 
-    <!-- <button
-      v-if="!showForm"
-      class="px-5 py-2 bg-slate-500 rounded"
-      @click="showForm = true"
-    >
-      Add Contact
-    </button> -->
-    <!-- <h3 class="font-medium m-0">Contact list</h3> -->
-    <!-- <AddContactForm
-      v-if="showForm"
-      :contacts="contacts"
-      @add-contact="AddContactToList"
-    /> -->
-
     <div class="contact-list grid-cols-[repeat(auto-fill,_minmax(320px,_1fr))] grid gap-5 my-5">
       <ContactItem
         v-for="(contact, index) in contacts"
