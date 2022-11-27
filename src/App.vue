@@ -30,9 +30,6 @@
 import { ref } from 'vue'
 import type { IContact } from '@/types'
 import ContactItem from './components/ContactItem.vue'
-// import AddContactForm from './components/AddContactForm.vue'
-
-// const showForm = ref(false)
 
 const contacts = ref<IContact[]>([
   {
